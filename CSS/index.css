@@ -1,0 +1,49 @@
+/* barra lateral de pantalla */
+.Encab{
+    background-color: blanchedalmond;
+}
+body{
+    background-color: antiquewhite;
+}
+body ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+body li a{
+    color: darkblue;
+    padding: 20px;
+}
+body li a:hover{
+    color: cyan;
+    padding: 20px;
+}
+
+
+/* Textos de las clases*/
+.pelis{
+    background-color: rgb(216, 123, 224);
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.musica{
+    background-color: lightgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.musicText{
+    margin: 15px;
+}
+
+.libros{
+    background-color: rgb(236, 188, 99);
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*  img     */
+.imgPelis{
+    position: relative;
+    left: 10%;
+}
